@@ -22,11 +22,16 @@ include = [
 
 [tool.poetry.dependencies]
 python = "~{{ cookiecutter.python_version }}"
+django = "^4.0.0"
+django-environ = "^0.8.1"
+psycopg2-binary = "^2.9.2"
+sentry-sdk = "^1.5.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.0"
 pytest-xdist = "^3.0.2"
 pytest-cov = "^4.0.0"
+pytest-django = "^4.5.2"
 black = "^22.10.0"
 flake8 = "^5.0.4"
 coverage = "^6.5.0"
@@ -50,6 +55,7 @@ namespace_packages = true
 no_implicit_optional = true
 
 [tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "{{ cookiecutter.root_package }}.settings"
 looponfailroots = "{{ cookiecutter.root_package }}"
 
 [tool.ruff]
