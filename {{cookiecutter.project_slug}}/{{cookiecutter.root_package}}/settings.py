@@ -93,8 +93,16 @@ USE_L10N = True
 USE_TZ = True
 
 
+# Internal IPs
+# Ref: https://docs.djangoproject.com/en/4.0/ref/settings/#std:setting-INTERNAL_IPS
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
+
 # Static files (CSS, JavaScript, Images)
+STATICFILES_DIRS = [BASE_DIR / "static"]
 STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / "static_root"
 
 # Sentry settings
 sentry_sdk.init(
