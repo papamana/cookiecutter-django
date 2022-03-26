@@ -8,7 +8,6 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 env = environ.Env(
     DEBUG=bool,
     ALLOWED_HOSTS=list,
-    WEATHER_CLIENT_ARGS=dict,
     CORS_ALLOWED_ORIGINS=list,
     CORS_ALLOW_ALL_ORIGINS=bool,
 )
@@ -27,10 +26,13 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django.contrib.postgres",
+    "django_extensions",
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
