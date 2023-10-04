@@ -26,7 +26,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-{ % if cookiecutter.database == "postgresql" - %}
+{% if cookiecutter.database == "postgresql" -%}
     "django.contrib.postgres",
 {%- endif %}
     "django_extensions",
