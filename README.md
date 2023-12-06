@@ -1,4 +1,4 @@
-# Starter Template for Django Python projects
+# Starter Template for Python Django projects
 
 Use this cookiecutter template 🍪 to start every new Django Python project.
 
@@ -12,17 +12,18 @@ Use this cookiecutter template 🍪 to start every new Django Python project.
 
 ## Getting Started
 
-Create a new Django Python project
+Create a new Python Django project
 
 ```
 cookiecutter gh:papamana/cookiecutter-django
 ```
 
-Create a new Django Python Project with Spesific Release version
+Create a new Python Django Project with Spesific Release version
 ```
 cookiecutter gh:papamana/cookiecutter-django --checkout <release version>
-
+```
 example:
+```
 cookiecutter gh:papamana/cookiecutter-django --checkout v0.1-beta.1
 ```
 
