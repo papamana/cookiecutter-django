@@ -1,4 +1,4 @@
-# Starter Template for Python projects
+# Starter Template for Django Python projects
 
 Use this cookiecutter template 🍪 to start every new Django Python project.
 
