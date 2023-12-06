@@ -21,7 +21,7 @@ def run():
         "git",
         "commit",
         "-m",
-        "Generate project from imankulov/cookiecutter-python-project",
+        "Generate project from juandisay/cookiecutter-django",
     )
 
 
