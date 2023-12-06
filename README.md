@@ -18,6 +18,14 @@ Create a new Django Python project
 cookiecutter gh:papamana/cookiecutter-django
 ```
 
+Create a new Django Python Project with Spesific Release version
+```
+cookiecutter gh:papamana/cookiecutter-django --checkout <release version>
+
+example:
+cookiecutter gh:papamana/cookiecutter-django --checkout v0.1-beta.1
+```
+
 For Windows, you might need to run `python -m cookiecutter` as the command might not work even though it's correctly configured on the PATH.
 
 
