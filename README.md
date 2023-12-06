@@ -15,16 +15,16 @@ Use this cookiecutter template 🍪 to start every new Python Django project.
 Create a new Python Django project
 
 ```
-cookiecutter git@github.com:papamana/cookiecutter-django.git
+cookiecutter gh:papamana/cookiecutter-django
 ```
 
 Create a new Python Django Project with Spesific Release version
 ```
-cookiecutter git@github.com:papamana/cookiecutter-django.git --checkout <release version>
+cookiecutter gh:papamana/cookiecutter-django --checkout <release version>
 ```
 example:
 ```
-cookiecutter git@github.com:papamana/cookiecutter-django.git --checkout v0.1-beta.1
+cookiecutter gh:papamana/cookiecutter-django --checkout v0.1-beta.1
 ```
 
 For Windows, you might need to run `python -m cookiecutter` as the command might not work even though it's correctly configured on the PATH.
