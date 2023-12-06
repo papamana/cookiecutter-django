@@ -15,7 +15,7 @@ Use this cookiecutter template 🍪 to start every new Django Python project.
 Create a new Python Django project
 
 ```
-cookiecutter gh:papamana/cookiecutter-django
+cookiecutter git@github.com:papamana/cookiecutter-django.git
 ```
 
 Create a new Python Django Project with Spesific Release version
