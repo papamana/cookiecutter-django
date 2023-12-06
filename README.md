@@ -1,6 +1,6 @@
 # Starter Template for Python Django projects
 
-Use this cookiecutter template 🍪 to start every new Django Python project.
+Use this cookiecutter template 🍪 to start every new Python Django project.
 
 ## System Dependencies
 
