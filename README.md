@@ -79,16 +79,7 @@ Other hints:
 
 ## Tests with GitHub actions
 
-A file `.github/workflows/tests.yml` is responsible for running tests on GitHub and
-upload coverage results to codecov.io.
-
-To make it work with codecov.
-
-- Go to https://app.codecov.io/ and find a repository upload token for your project.
-- Go to your repository settings on GitHub, and define the actions secret
-  `CODECOV_TOKEN`: Settings → Secrets → New repository secret).
-
-If you don't configure the token, the action quietly skips the upload step.
+A file `.github/workflows/tests.yml` is responsible for running tests on GitHub.
 
 ## How to configure VSCode
 
