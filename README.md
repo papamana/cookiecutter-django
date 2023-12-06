@@ -1,6 +1,6 @@
 # Starter Template for Python projects
 
-Use this cookiecutter template 🍪 to start every new Python project.
+Use this cookiecutter template 🍪 to start every new Django Python project.
 
 ## System Dependencies
 
@@ -12,10 +12,10 @@ Use this cookiecutter template 🍪 to start every new Python project.
 
 ## Getting Started
 
-Create a new Python project
+Create a new Django Python project
 
 ```
-cookiecutter gh:imankulov/cookiecutter-python-project
+cookiecutter gh:papamana/cookiecutter-django
 ```
 
 For Windows, you might need to run `python -m cookiecutter` as the command might not work even though it's correctly configured on the PATH.
@@ -34,22 +34,7 @@ The template covers your back with the following elements:
 - A set of pre-commit hooks.
 - pyproject.toml for Poetry.
 
-## Django flavor
 
-A branch [django](https://github.com/imankulov/cookiecutter-python-project/tree/django) contains an opinionated configuration for starting up a new Django project. The setup includes:
-
-- Dependencies: django, django-environ, psycopg2-binary, sentry-sdk
-- Dev dependencies: pytest-django
-- Sample environment file: env.example
-- A boilerplate project template. The settings.py file reads the environment from the .env file.
-
-If you want to start a new Django project, switch to a Django branch before starting the cookiecutter.
-
-```
-git clone https://github.com/imankulov/cookiecutter-python-project.git
-git checkout django
-cookiecutter cookiecutter-python-project/
-```
 
 ## How to use it
 
