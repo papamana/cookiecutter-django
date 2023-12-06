@@ -1,0 +1,23 @@
+{
+  "author_name": "Your Name",
+  "author_email": "you@example.com",
+  "author_github": "youraccount",
+
+  "project_name": "Foo Bar",
+  "project_short_description": "Starter Template for Python projects",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+  "project_license": ["MIT", "Proprietary"],
+  "project_url": "https://github.com/{{ cookiecutter.author_github}}/{{ cookiecutter.project_slug }}",
+  "project_version": "0.1.0",
+
+  "database": ["postgresql", "sqlite"],
+
+  "postgresql_port": "5432",
+  "postgresql_version": "15",
+  "postgresql_user": "{{ cookiecutter.project_slug.replace('-', '_') }}",
+  "postgresql_password": "password",
+  "postgresql_database": "{{ cookiecutter.project_slug.replace('-', '_') }}",
+
+  "root_package": "{{ cookiecutter.project_slug.replace('-', '_') }}",
+  "python_version": "3.11"
+}
