@@ -115,5 +115,6 @@ extension, add the following lines to your `.vscode/settings.json` file:
 - If you have questions, ideas or suggestions, write them down in an issue.
 - If you have a fix or an enhancement, create a pull request.
 
-## ORIGIN PROJECT
-- fork from [Cookiecutter Python Project](https://github.com/imankulov/cookiecutter-python-project)
+## REFERENCE PROJECT
+- [Cookiecutter Python Project](https://github.com/imankulov/cookiecutter-python-project)
+- [Wemake django Template](https://github.com/wemake-services/wemake-django-template)
