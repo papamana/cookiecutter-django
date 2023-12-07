@@ -23,6 +23,7 @@ def run():
         "-m",
         "Generate project from juandisay/cookiecutter-django",
     )
+    run_command("pip", "install", "poetry") # install poetry
 
 
 def run_command(*args):

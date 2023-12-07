@@ -5,8 +5,8 @@ Use this cookiecutter template 🍪 to start every new Python Django project.
 ## System Dependencies
 
 - Git
-- Python 3.11
-- [Poetry](https://python-poetry.org/docs/#installation) 1.2.x
+- Python 3.8.13
+- [Poetry](https://python-poetry.org/docs/#installation) 1.3.x
 - [Pre-commit hooks](https://pre-commit.com/)
 
 

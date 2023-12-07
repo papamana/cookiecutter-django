@@ -4,7 +4,7 @@
   "author_github": "youraccount",
 
   "project_name": "Foo Bar",
-  "project_short_description": "Starter Template for Python projects",
+  "project_short_description": "Starter Template for Python Django projects",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
   "project_license": ["MIT", "Proprietary"],
   "project_url": "https://github.com/{{ cookiecutter.author_github}}/{{ cookiecutter.project_slug }}",
@@ -19,5 +19,5 @@
   "postgresql_database": "{{ cookiecutter.project_slug.replace('-', '_') }}",
 
   "root_package": "{{ cookiecutter.project_slug.replace('-', '_') }}",
-  "python_version": "3.11"
+  "python_version": "3.8.13"
 }
